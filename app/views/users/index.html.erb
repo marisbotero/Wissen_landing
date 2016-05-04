@@ -1,0 +1,153 @@
+<!--Contenedor Global -->
+<div class="contenedorGlobal">
+
+<!-- Encabezado -->
+<header >
+ 	<div class="contenedor">
+  <div class="menu_bar">
+ <div class="logo">
+  <%= image_tag "logos2.png", class: "imgLogo", alt: "logo" %>
+  </div>
+      <a href="#" class="bt-menu">☰</a>
+    </div>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+	<nav>
+	<!-- contenedor del menu -->
+	<div>
+	<div class="logo">
+	<%= image_tag "logos2.png", class: "imgLogo menu2", alt: "logo" %>
+	</div>
+
+	<!-- Lista de menu -->
+	<div class="menu">
+	<ul>
+	<li><a href="#contacto" class="scroll hvr-underline-from-center">Únete</a></li>
+	<li><a href="#vision" class="scroll hvr-underline-from-center">Visión</a></li>        
+	<li><a href="#palabras" class="scroll hvr-underline-from-center">Nuestra filosofía</a></li>       
+	</ul>
+	</div>
+	</div>
+</nav>
+  <!-- Indicators -->
+  <ol id="contenedorResponsive" class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" id="fondo"class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div id="fondo"class="carousel-inner" role="listbox">
+    <div class="item active">
+      <%= image_tag "fondo2.jpg", alt: "fondo" %>
+      <div class="carousel-caption">
+        <h1 class="textos2"> Paso a paso se aprende mejor! </h1>
+      </div>
+    </div>
+
+    <div class="item">
+      <%= image_tag "fondo1.jpg", alt: "fondo" %>
+      <div class="carousel-caption">
+        <h1 class="textos"> Aprende arduino y energias renovables </h1>
+        </div>
+    </div>
+    <div class="item">
+      <%= image_tag "fondo.jpg", alt: "textos" %>
+      <div class="carousel-caption">
+        <h1 class="textos3">Ciencia y tecnológica a tu alcance</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Final navegador-->
+<!-- Seccion 1-->
+
+    
+    </div>
+   </header> 
+<!-- Final seccion 1-->
+<!-- seccion 2-->
+    <div id="palabras">
+    
+    <!-- iconos y cuadros-->
+        <section class="cuadro">
+        
+        <a href="#0" >
+          <span ><%= image_tag "educacion.png", class: "icon", alt: "IconoEducacion" %></span>
+          <h3>Educación</h3>
+          <p>Experiencias significativas que evocan y motivan un aprendizaje constructivo</p>
+        </a>
+
+        <a href="#0">
+          <span><%= image_tag "exclusivo.png", class: "icon", alt: "IconoExclusividad" %></span>
+          <h3>Exclusividad</h3>
+          <p>Asesorías personalizadas de acuerdo a las necesidades de cada usuario</p>
+        </a>
+
+        <a href="#0">
+          <span><%= image_tag "tiempo.png", class: "icon", alt: "IconoTiempo" %></span>
+          <h3>Flexibilidad</h3>
+          <p>Aprende en cualquier horario desde la comodidad de tu hogar y a tu propia ritmo</p>
+        </a>
+
+        </section>
+        <!--final iconos-->
+    <!-- información-->
+
+        <section class="filosofia" >
+
+        <h2 class="zoomIn">Actividades Claves</h2>
+        
+        </section>
+
+    </div>
+<!-- seccion 3-->
+
+    <div id="vision" class="seccion3">
+    <section class="somos">
+    <h2>Filosofía</h2>
+        <p>Creemos en un conocimiento universal y accesible para fomentar la creatividad y el mejoramiento continuo de los procesos formativos.
+        </p>
+        </section>
+        
+        <%= image_tag "filosofia.png", class: "imagenes", alt: "filosofiaEmpresarial" %>
+    </div>
+
+    <div class="seccion3">
+      <%= image_tag "vision.png", class: "imagenes imgVision", alt: "Vision" %>
+       <section class="vision">
+    <h2>Visión</h2>
+        <p>Nos proyectamos hacia una sociedad de conocimiento donde los jovenes generen nuevas tecnologias y construyan propuestas que pretendan solucionar las problematicas del entorno actual.
+        </p>
+        </section>
+
+
+    </div>
+<!-- final seccion3-->
+<!--Contactanos-->
+    <div id="contacto" class="contactanos">
+    <h2>Contacto</h2>
+    <p>Se parte de las nuevas tendencias y ¡Regístrate!</p>
+    <div class="formulario">
+    <%= form_for(@user) do |t| %>
+  <p>
+    <%= t.label :nombre,"Nombre" %><br>
+    <%= t.text_field :nombre, placeholder: "Ingresar Primer Nombre" %>
+  </p>
+  
+   <p>
+    <%= t.label :correo,"E-mail" %><br>
+    <%= t.email_field :correo %>
+  </p>
+  <p>
+    <%= t.submit "Regístrate", {:class=>"btn btn-success navbar-btn ",'data-toggle'=>"modal" ,'data-target'=>"#ModalRegistration"} %>
+  </p>
+<% end %>
+</div>
+</div>
+<%= render partial: 'partials/modal_registro' %>
+
+
+</div>
+
+    

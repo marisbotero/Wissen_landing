@@ -1,2 +1,2 @@
-# Wissen_landing
-educational platform, landing
+# Landing-wissen
+educational App  focused on science and technology
