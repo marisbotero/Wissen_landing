@@ -9,12 +9,19 @@
    margin: 0 auto;
    overflow: hidden;
 }
+.seccion2 img{
+  width: 100%;
+}
+.logofooter{
+  width: 50%
+}
 
 .contenedor{
   width: 100%;
   height: 924px;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: #ffb700;
 
 }
   /*barra navegador*/
@@ -237,7 +244,7 @@ border-bottom: 1px solid #eee;
 clear: both;
   float: left;
   width: 50%;
-  background:#EF810D ;
+  background:#ffb700 ;
   box-sizing: border-box;
   text-align: center;
   }
@@ -290,7 +297,7 @@ clear: both;
 .formulario {
   position: relative;
   left:42%;  
-  bottom: 25%;
+  bottom: 60%;
   font-size: 1rem;
   color: #00A1A5; 
 }

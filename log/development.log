@@ -47086,3 +47086,807 @@ Processing by UsersController#index as HTML
   Rendered partials/_modal_registro.html.erb (0.1ms)
   Rendered users/index.html.erb within layouts/application (44.9ms)
 Completed 200 OK in 274ms (Views: 273.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:01:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+  Rendered partials/_modal_registro.html.erb (0.5ms)
+  Rendered users/index.html.erb within layouts/application (12891.8ms)
+Completed 200 OK in 13084ms (Views: 13071.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/animate.self-066dd43afaa891fb6cb9c597e6bd2379f2546a1489393639eafe04c3dadee305.css?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/users.self-c023b8f3f4886faa1701d9f63a6ef6c19f5538d22f3037b71faaec57e2610d88.css?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/animate.min.self-44b7d24a838b0e8590c376f8e0139b2eadebe6455c3b74e72df3157d4a97dbaa.css?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/application.self-1b46d6ecf08e4967c0a20320f7dc109b87c6eb9daea2e728b4ced374fdc52d05.css?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/application.self-d00b30da4a5c90e49a7d7cc40304734fca30b7844b55d8dca0620ce7cec2b03b.js?body=1" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/logos2-b4f6ba9026127ff8a08a5d09c54373077e3669d3b8abe1aa1c2ddb9abee920da.png" for 127.0.0.1 at 2018-04-23 22:01:31 -0500
+
+
+Started GET "/assets/educacion-2eeb1e9ac0dc4bba13b1b26976aabe988117edccc91784447a60584fe14c0425.png" for 127.0.0.1 at 2018-04-23 22:01:32 -0500
+
+
+Started GET "/assets/fondo1-31d7c680f1aff4e862f8a35cc03b64ae34feb3b7488217b498f4335f6e31ed8e.jpg" for 127.0.0.1 at 2018-04-23 22:01:32 -0500
+
+
+Started GET "/assets/exclusivo-59e752e0ba91b7097c0111b5a03d918b7a7ff29f9233b154ad01cef702c2c5ac.png" for 127.0.0.1 at 2018-04-23 22:01:32 -0500
+
+
+Started GET "/assets/fondo-1fec3f5d4bed7997031afb2ff70566c685917ccd1b755e06a2017fddeabc1fc5.jpg" for 127.0.0.1 at 2018-04-23 22:01:32 -0500
+
+
+Started GET "/assets/fondo2-3fe55f0df19d45185f6eeeddd822694e58e6d6946eca4ee4aa91c1bca5984074.jpg" for 127.0.0.1 at 2018-04-23 22:01:32 -0500
+
+
+Started GET "/assets/tiempo-1777029f23517dfd16896e3d9625123f0160189ead2b95e7dfc92136fd177ccc.png" for 127.0.0.1 at 2018-04-23 22:01:32 -0500
+
+
+Started GET "/assets/filosofia-a6350859f8c3529d2ca7833ecad1780057a52498698284a1ca1ff27295fe02e1.png" for 127.0.0.1 at 2018-04-23 22:01:33 -0500
+
+
+Started GET "/assets/vision-513d353d76f879967b851a671d36c898138cca0bb5c4879e9f02d5beb72b3cab.png" for 127.0.0.1 at 2018-04-23 22:01:33 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:07:18 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (214.3ms)
+Completed 200 OK in 324ms (Views: 322.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/camaras-25d93aeca503e03cf899230ba4a295852b91125c3dd7f823dff90792dfb9c611.jpg" for 127.0.0.1 at 2018-04-23 22:07:18 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:10:32 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (41.8ms)
+Completed 200 OK in 99ms (Views: 97.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.self-066dd43afaa891fb6cb9c597e6bd2379f2546a1489393639eafe04c3dadee305.css?body=1" for 127.0.0.1 at 2018-04-23 22:10:32 -0500
+
+
+Started GET "/assets/application.self-d00b30da4a5c90e49a7d7cc40304734fca30b7844b55d8dca0620ce7cec2b03b.js?body=1" for 127.0.0.1 at 2018-04-23 22:10:32 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2018-04-23 22:10:32 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-04-23 22:10:32 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:11:13 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:12:00 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.5ms)
+  Rendered users/index.html.erb within layouts/application (190.4ms)
+Completed 200 OK in 343ms (Views: 331.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:13:59 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/camaras-55a30a140287577953e03fd43b2760f4bef307daef5b8b5e5cfee685ed3b7ec3.jpg" for 127.0.0.1 at 2018-04-23 22:13:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:15:08 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 152ms (Views: 150.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/camaras-39dd04107a11e6abcafdd6c62bbcb7765407ab6ed2950813d9dd6a2161ca1087.jpg" for 127.0.0.1 at 2018-04-23 22:15:08 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:16:07 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/camaras-8ac7a26c59be5e996b639883b2df72eff239ddfdc0437cb25393dafb56bbc52e.jpg" for 127.0.0.1 at 2018-04-23 22:16:08 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.self-066dd43afaa891fb6cb9c597e6bd2379f2546a1489393639eafe04c3dadee305.css?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/users.self-c023b8f3f4886faa1701d9f63a6ef6c19f5538d22f3037b71faaec57e2610d88.css?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/application.self-1b46d6ecf08e4967c0a20320f7dc109b87c6eb9daea2e728b4ced374fdc52d05.css?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/animate.min.self-44b7d24a838b0e8590c376f8e0139b2eadebe6455c3b74e72df3157d4a97dbaa.css?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/application.self-d00b30da4a5c90e49a7d7cc40304734fca30b7844b55d8dca0620ce7cec2b03b.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:24 -0500
+
+
+Started GET "/assets/logos2-b4f6ba9026127ff8a08a5d09c54373077e3669d3b8abe1aa1c2ddb9abee920da.png" for 127.0.0.1 at 2018-04-23 22:16:25 -0500
+
+
+Started GET "/assets/fondo2-3fe55f0df19d45185f6eeeddd822694e58e6d6946eca4ee4aa91c1bca5984074.jpg" for 127.0.0.1 at 2018-04-23 22:16:25 -0500
+
+
+Started GET "/assets/fondo-1fec3f5d4bed7997031afb2ff70566c685917ccd1b755e06a2017fddeabc1fc5.jpg" for 127.0.0.1 at 2018-04-23 22:16:25 -0500
+
+
+Started GET "/assets/tiempo-1777029f23517dfd16896e3d9625123f0160189ead2b95e7dfc92136fd177ccc.png" for 127.0.0.1 at 2018-04-23 22:16:25 -0500
+
+
+Started GET "/assets/camaras-8ac7a26c59be5e996b639883b2df72eff239ddfdc0437cb25393dafb56bbc52e.jpg" for 127.0.0.1 at 2018-04-23 22:16:25 -0500
+
+
+Started GET "/assets/educacion-2eeb1e9ac0dc4bba13b1b26976aabe988117edccc91784447a60584fe14c0425.png" for 127.0.0.1 at 2018-04-23 22:16:25 -0500
+
+
+Started GET "/assets/filosofia-a6350859f8c3529d2ca7833ecad1780057a52498698284a1ca1ff27295fe02e1.png" for 127.0.0.1 at 2018-04-23 22:16:25 -0500
+
+
+Started GET "/assets/exclusivo-59e752e0ba91b7097c0111b5a03d918b7a7ff29f9233b154ad01cef702c2c5ac.png" for 127.0.0.1 at 2018-04-23 22:16:25 -0500
+
+
+Started GET "/assets/vision-513d353d76f879967b851a671d36c898138cca0bb5c4879e9f02d5beb72b3cab.png" for 127.0.0.1 at 2018-04-23 22:16:25 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.self-066dd43afaa891fb6cb9c597e6bd2379f2546a1489393639eafe04c3dadee305.css?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/users.self-c023b8f3f4886faa1701d9f63a6ef6c19f5538d22f3037b71faaec57e2610d88.css?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/animate.min.self-44b7d24a838b0e8590c376f8e0139b2eadebe6455c3b74e72df3157d4a97dbaa.css?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/application.self-1b46d6ecf08e4967c0a20320f7dc109b87c6eb9daea2e728b4ced374fdc52d05.css?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/application.self-d00b30da4a5c90e49a7d7cc40304734fca30b7844b55d8dca0620ce7cec2b03b.js?body=1" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/camaras-8ac7a26c59be5e996b639883b2df72eff239ddfdc0437cb25393dafb56bbc52e.jpg" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/educacion-2eeb1e9ac0dc4bba13b1b26976aabe988117edccc91784447a60584fe14c0425.png" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/logos2-b4f6ba9026127ff8a08a5d09c54373077e3669d3b8abe1aa1c2ddb9abee920da.png" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/fondo2-3fe55f0df19d45185f6eeeddd822694e58e6d6946eca4ee4aa91c1bca5984074.jpg" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/exclusivo-59e752e0ba91b7097c0111b5a03d918b7a7ff29f9233b154ad01cef702c2c5ac.png" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/fondo-1fec3f5d4bed7997031afb2ff70566c685917ccd1b755e06a2017fddeabc1fc5.jpg" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/tiempo-1777029f23517dfd16896e3d9625123f0160189ead2b95e7dfc92136fd177ccc.png" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/filosofia-a6350859f8c3529d2ca7833ecad1780057a52498698284a1ca1ff27295fe02e1.png" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/assets/vision-513d353d76f879967b851a671d36c898138cca0bb5c4879e9f02d5beb72b3cab.png" for 127.0.0.1 at 2018-04-23 22:16:31 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:16:53 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:17:39 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 73ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/camaras-1aeed7083d57df96ca1854e5e6a41ec23d0e2f4a082b6fe47f68e497384c4fd3.jpg" for 127.0.0.1 at 2018-04-23 22:17:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:19:35 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 80ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/camaras-48ad007969ebd493b31c0fa5a13db7cf5c6f1bd1923da80b7702fb6ff007bced.jpg" for 127.0.0.1 at 2018-04-23 22:19:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:20:06 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:21:55 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 59ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:22:36 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:24:09 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (50.5ms)
+Completed 200 OK in 114ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:27:02 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 69ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/indexlanding-02-62a8d738fbf2328a56a69da4c875d96cfd3b7db75cfad2810d8c15ebdab5b6db.jpg" for 127.0.0.1 at 2018-04-23 22:27:03 -0500
+
+
+Started GET "/assets/fondopeq.jpg" for 127.0.0.1 at 2018-04-23 22:30:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:32:30 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (23.1ms)
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Completed 200 OK in 4042ms (Views: 4041.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.self-066dd43afaa891fb6cb9c597e6bd2379f2546a1489393639eafe04c3dadee305.css?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/users.self-5303a150cabc1e310205c9c1d1b83bdd6af13d9513d4a251c4f793869a0d7461.css?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/animate.min.self-44b7d24a838b0e8590c376f8e0139b2eadebe6455c3b74e72df3157d4a97dbaa.css?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/application.self-1b46d6ecf08e4967c0a20320f7dc109b87c6eb9daea2e728b4ced374fdc52d05.css?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/application.self-d00b30da4a5c90e49a7d7cc40304734fca30b7844b55d8dca0620ce7cec2b03b.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/logos2-b4f6ba9026127ff8a08a5d09c54373077e3669d3b8abe1aa1c2ddb9abee920da.png" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/fondo2-3fe55f0df19d45185f6eeeddd822694e58e6d6946eca4ee4aa91c1bca5984074.jpg" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/camaras-48ad007969ebd493b31c0fa5a13db7cf5c6f1bd1923da80b7702fb6ff007bced.jpg" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/filosofia-a6350859f8c3529d2ca7833ecad1780057a52498698284a1ca1ff27295fe02e1.png" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/vision-513d353d76f879967b851a671d36c898138cca0bb5c4879e9f02d5beb72b3cab.png" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/indexlanding-02-62a8d738fbf2328a56a69da4c875d96cfd3b7db75cfad2810d8c15ebdab5b6db.jpg" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/fondo-1fec3f5d4bed7997031afb2ff70566c685917ccd1b755e06a2017fddeabc1fc5.jpg" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/educacion-2eeb1e9ac0dc4bba13b1b26976aabe988117edccc91784447a60584fe14c0425.png" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/exclusivo-59e752e0ba91b7097c0111b5a03d918b7a7ff29f9233b154ad01cef702c2c5ac.png" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/fondopeq.jpg" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/assets/tiempo-1777029f23517dfd16896e3d9625123f0160189ead2b95e7dfc92136fd177ccc.png" for 127.0.0.1 at 2018-04-23 22:32:34 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:34:23 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:35:30 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (12.8ms)
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Completed 200 OK in 2974ms (Views: 2972.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-d9f72ef4eee60b8d1c9aa8cba74919d66fc2448f48231ff611cfd0796e82b663.css?body=1" for 127.0.0.1 at 2018-04-23 22:35:33 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:36:50 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (11.7ms)
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Completed 200 OK in 3017ms (Views: 3015.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-c090b70a391a67cd9ccbf6d3683e236af20143a9c3dd8907f656a3b3e340f272.css?body=1" for 127.0.0.1 at 2018-04-23 22:36:53 -0500
+
+
+Started GET "/assets/fondopeq.jpg" for 127.0.0.1 at 2018-04-23 22:37:26 -0500
+
+
+Started GET "/assets/fondopeq2.jpg" for 127.0.0.1 at 2018-04-23 22:37:26 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:38:45 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (10.6ms)
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Completed 200 OK in 3246ms (Views: 3245.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-cb34162000a7e5eceb9dc55ec12bb6515e4113d2097fb590e9041037fe20d6ce.css?body=1" for 127.0.0.1 at 2018-04-23 22:38:48 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:39:20 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 74ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:40:47 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:41:00 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:41:45 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (12.6ms)
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Completed 200 OK in 2947ms (Views: 2946.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-5102282db14dca44ba9b39d33556b6da587c452d4a38c6412e4e63214d452b7a.css?body=1" for 127.0.0.1 at 2018-04-23 22:41:48 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:41:59 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (11.3ms)
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Completed 200 OK in 2937ms (Views: 2936.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-7e4978190521c3a5c1462a7be29bf5de760a506a2e8fc0966b8da95a4d0da554.css?body=1" for 127.0.0.1 at 2018-04-23 22:42:02 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:45:43 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 72ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-7e4978190521c3a5c1462a7be29bf5de760a506a2e8fc0966b8da95a4d0da554.css?body=1" for 127.0.0.1 at 2018-04-23 22:45:44 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:49:39 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo2.png" for 127.0.0.1 at 2018-04-23 22:49:39 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/logo2.png"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/laura/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/laura/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/laura/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.5ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.4ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/laura/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:50:02 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:51:43 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (14.1ms)
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Completed 200 OK in 3031ms (Views: 3030.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-2af43e44e332ccd056071a20e5862ee1740c1e5084cbb7fb17e8e5d0ff6ed012.css?body=1" for 127.0.0.1 at 2018-04-23 22:51:46 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:55:09 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-2af43e44e332ccd056071a20e5862ee1740c1e5084cbb7fb17e8e5d0ff6ed012.css?body=1" for 127.0.0.1 at 2018-04-23 22:55:09 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:55:24 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 96ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:56:41 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (24.3ms)
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Completed 200 OK in 3364ms (Views: 3362.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-01423e1a5c186ca6d367daf47b29ee61a5361635250222c22f713c9e766740fd.css?body=1" for 127.0.0.1 at 2018-04-23 22:56:45 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 22:56:57 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (22.2ms)
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Warning. Error encountered while saving cache 4b015d984c2074f27fd10d103529256b509e9284/application.css.sassc: can't dump hash with default proc
+
+Completed 200 OK in 3413ms (Views: 3412.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-a3eb19270e3d459450f80bfc594640a797afe404d68af1795245f592ae4c7f54.css?body=1" for 127.0.0.1 at 2018-04-23 22:57:00 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 23:00:35 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 23:01:06 -0500
+Processing by UsersController#index as HTML
+  Rendered partials/_modal_registro.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 62ms (Views: 61.7ms | ActiveRecord: 0.0ms)

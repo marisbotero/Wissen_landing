@@ -23,8 +23,9 @@
 	<div class="menu">
 	<ul>
 	<li><a href="#contacto" class="scroll hvr-underline-from-center">Únete</a></li>
-	<li><a href="#vision" class="scroll hvr-underline-from-center">Visión</a></li>        
-	<li><a href="#palabras" class="scroll hvr-underline-from-center">Nuestra filosofía</a></li>       
+	<li><a href="#palabras" class="scroll hvr-underline-from-center">Una idea genial</a></li>        
+  <li><a href="#vision" class="scroll hvr-underline-from-center">Visión</a></li>  
+  <li><a href="#search" class="scroll hvr-underline-from-center">Busqueda</a></li>      
 	</ul>
 	</div>
 	</div>
@@ -46,9 +47,9 @@
     </div>
 
     <div class="item">
-      <%= image_tag "fondo1.jpg", alt: "fondo" %>
+      <%= image_tag "camaras.jpg", alt: "fondo" %>
       <div class="carousel-caption">
-        <h1 class="textos"> Aprende arduino y energias renovables </h1>
+        <h1 class="textos"> Retrata tu mundo </h1>
         </div>
     </div>
     <div class="item">
@@ -67,40 +68,10 @@
    </header> 
 <!-- Final seccion 1-->
 <!-- seccion 2-->
-    <div id="palabras">
-    
-    <!-- iconos y cuadros-->
-        <section class="cuadro">
-        
-        <a href="#0" >
-          <span ><%= image_tag "educacion.png", class: "icon", alt: "IconoEducacion" %></span>
-          <h3>Educación</h3>
-          <p>Experiencias significativas que evocan y motivan un aprendizaje constructivo</p>
-        </a>
-
-        <a href="#0">
-          <span><%= image_tag "exclusivo.png", class: "icon", alt: "IconoExclusividad" %></span>
-          <h3>Exclusividad</h3>
-          <p>Asesorías personalizadas de acuerdo a las necesidades de cada usuario</p>
-        </a>
-
-        <a href="#0">
-          <span><%= image_tag "tiempo.png", class: "icon", alt: "IconoTiempo" %></span>
-          <h3>Flexibilidad</h3>
-          <p>Aprende en cualquier horario desde la comodidad de tu hogar y a tu propia ritmo</p>
-        </a>
-
-        </section>
-        <!--final iconos-->
-    <!-- información-->
-
-        <section class="filosofia" >
-
-        <h2 class="zoomIn">Actividades Claves</h2>
-        
-        </section>
-
-    </div>
+  <div id="search" class="seccion2">
+  <%= image_tag "indexlanding-02.jpg", alt: "search" %>
+  </div>
+<!-- Final seccion 2-->
 <!-- seccion 3-->
 
     <div id="vision" class="seccion3">
@@ -117,17 +88,46 @@
       <%= image_tag "vision.png", class: "imagenes imgVision", alt: "Vision" %>
        <section class="vision">
     <h2>Visión</h2>
-        <p>Nos proyectamos hacia una sociedad de conocimiento donde los jovenes generen nuevas tecnologias y construyan propuestas que pretendan solucionar las problematicas del entorno actual.
+        <p>Queremos aportar a la construcción de una sociedad de conocmiento que posibilite la creación territorial partiendo de herramientas como arte, cultura y tecnología.
         </p>
         </section>
 
 
     </div>
 <!-- final seccion3-->
+<!-- seccion 4-->
+    <div id="palabras">
+    
+    <!-- iconos y cuadros-->
+        <section class="cuadro">
+        
+        <a href="#0" >
+          <span ><%= image_tag "educacion.png", class: "icon", alt: "IconoEducacion" %></span>
+          <h3>Educación</h3>
+          <p>Experiencias significativas que evocan y motivan un aprendizaje constructivo en torno  a la cultura y tecnología</p>
+        </a>
+
+        <a href="#0">
+          <span><%= image_tag "exclusivo.png", class: "icon", alt: "IconoExclusividad" %></span>
+          <h3>Exclusividad</h3>
+          <p>Asesorías personalizadas de acuerdo a las necesidades de cada usuario</p>
+        </a>
+
+        <a href="#0">
+          <span><%= image_tag "tiempo.png", class: "icon", alt: "IconoTiempo" %></span>
+          <h3>Flexibilidad</h3>
+          <p>Aprende en cualquier horario desde la comodidad de tu hogar y a tu propio ritmo</p>
+        </a>
+
+        </section>
+        <!--final iconos-->
+    </div>
 <!--Contactanos-->
     <div id="contacto" class="contactanos">
-    <h2>Contacto</h2>
-    <p>Se parte de las nuevas tendencias y ¡Regístrate!</p>
+    <div class="logofooter">
+      <%= image_tag "logos2.png", alt: "logo" %>
+      <p>Para recibir noticas ¡suscríbete!</p>
+    </div>
     <div class="formulario">
     <%= form_for(@user) do |t| %>
   <p>
